@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": "ITEM_0001",
+      "name": "Magic Staff",
+      "description": "A magical staff powered by a mysterious energy.",
+      "tags": ["weapon"],
+      "properties": {},
+      "stackable": false,
+      "equippable": true,
+      "effects": [{"amount":1,"stat":"attack","type":"stat_boost"}],
+      "weapon": true,
+      "weapon_type": "ranged",
+      "weapon_cooldown": "custom",
+      "weapon_cooldown_realtime": 0.25,
+      "weapon_sound": "magic_staff.wav",
+      "weapon_fire_mode": "auto",
+      "weapon_min_damage": 1,
+      "weapon_max_damage": 3,
+      "weapon_consumption_type": "character_stat",
+      "weapon_ammo_stat_id": "mp",
+      "weapon_projectile_speed": 100,
+      "weapon_min_range": 0,
+      "weapon_max_range": 16,
+      "weapon_projectile_object": "projectile",
+      "object": "projectile",
+      "image": "magic_staff.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0002",
+      "name": "Gold Key",
+      "description": "A shiny gold key.",
+      "tags": [],
+      "properties": {},
+      "stackable": true,
+      "stack_limit": 5,
+      "image": "key_gold.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0003",
+      "name": "Stone Bullet",
+      "description": "A small stone projectile.",
+      "tags": [],
+      "properties": {},
+      "stackable": false,
+      "projectile": true,
+      "projectile_min_damage": 2,
+      "projectile_max_damage": 4,
+      "projectile_speed": 30,
+      "projectile_min_range": 1,
+      "projectile_max_range": 8,
+      "object": "stone",
+      "image": "stone.png",
+      "usable": false
+    }
+  ],
+  "localized": false
+}
